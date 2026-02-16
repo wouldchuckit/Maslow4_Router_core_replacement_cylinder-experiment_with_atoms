@@ -1671,11 +1671,11 @@
           "ioValue": 10
         },
         {
-          "name": "Input_1",
+          "name": "Bitdiameter",
           "ioValue": 10
         },
         {
-          "name": "Input_2",
+          "name": "RouterCylinderRadius",
           "ioValue": 10
         }
       ],
@@ -1701,7 +1701,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 3.175
+              "ioValue": 10
             }
           ]
         },
@@ -1733,7 +1733,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 35.62253201513364
+              "ioValue": 13.535533905932738
             },
             {
               "name": "yDist",
@@ -1758,7 +1758,7 @@
             },
             {
               "name": "d",
-              "ioValue": 1.122532015133644
+              "ioValue": 3.5355339059327373
             },
             {
               "name": "h",
@@ -1776,7 +1776,7 @@
           "ioValues": [
             {
               "name": "a",
-              "ioValue": 21.351877578321307
+              "ioValue": 23.519784407057088
             }
           ],
           "currentEquation": "-a"
@@ -1801,7 +1801,7 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 21.351877578321307
+              "ioValue": 23.519784407057088
             }
           ]
         },
@@ -1825,7 +1825,7 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": -21.351877578321307
+              "ioValue": -23.519784407057088
             }
           ]
         },
@@ -1854,7 +1854,7 @@
           "ioValues": [
             {
               "name": "d",
-              "ioValue": 3.175
+              "ioValue": 10
             }
           ],
           "currentEquation": "(d/2)/sqrt(2)"
@@ -1868,11 +1868,11 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 34.5
+              "ioValue": 10
             },
             {
               "name": "y",
-              "ioValue": 1.122532015133644
+              "ioValue": 3.5355339059327373
             }
           ],
           "currentEquation": "x + y"
@@ -1890,14 +1890,14 @@
           "x": 0.0165,
           "y": 0.27014492753623187,
           "uniqueID": "id-257523",
-          "name": "Input_1"
+          "name": "Bitdiameter"
         },
         {
           "atomType": "Input",
           "x": 0.0165,
-          "y": 0.33014492753623187,
+          "y": 0.32608695652173914,
           "uniqueID": "id-257526",
-          "name": "Input_2"
+          "name": "RouterCylinderRadius"
         }
       ],
       "allConnectors": [
@@ -1947,6 +1947,11 @@
           "ap2ID": "id-257473"
         },
         {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-257473",
+          "ap2ID": "id-257464"
+        },
+        {
           "ap2Name": "y",
           "ap1ID": "id-257474",
           "ap2ID": "id-257475"
@@ -1960,6 +1965,21 @@
           "ap2Name": "xDist",
           "ap1ID": "id-257475",
           "ap2ID": "id-257468"
+        },
+        {
+          "ap2Name": "diameter",
+          "ap1ID": "id-257520",
+          "ap2ID": "id-257466"
+        },
+        {
+          "ap2Name": "d",
+          "ap1ID": "id-257523",
+          "ap2ID": "id-257474"
+        },
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-257526",
+          "ap2ID": "id-257475"
         }
       ],
       "fileTypeVersion": 1
