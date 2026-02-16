@@ -39,7 +39,7 @@
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.15384615384615385,
+      "y": 0.1,
       "uniqueID": "id-255272",
       "name": "WoodThick"
     },
@@ -78,7 +78,7 @@
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.24615384615384617,
+      "y": 0.16,
       "uniqueID": "id-255283",
       "name": "WallThick"
     },
@@ -256,7 +256,7 @@
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.3384615384615385,
+      "y": 0.22,
       "uniqueID": "id-255319",
       "name": "RodDiameter"
     },
@@ -605,7 +605,7 @@
     {
       "atomType": "Input",
       "x": 0.0165,
-      "y": 0.4307692307692308,
+      "y": 0.28,
       "uniqueID": "id-255512",
       "name": "BitDiameter"
     },
@@ -1668,7 +1668,7 @@
       "ioValues": [
         {
           "name": "RouterCylinderDiam",
-          "ioValue": 10
+          "ioValue": 69
         },
         {
           "name": "Bitdiameter",
@@ -1680,6 +1680,10 @@
         },
         {
           "name": "WoodThick",
+          "ioValue": 10
+        },
+        {
+          "name": "SwitchNiche",
           "ioValue": 10
         }
       ],
@@ -1705,7 +1709,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 10
+              "ioValue": 69
             }
           ]
         },
@@ -1758,7 +1762,7 @@
           "ioValues": [
             {
               "name": "o",
-              "ioValue": 24
+              "ioValue": 10
             },
             {
               "name": "d",
@@ -1780,7 +1784,7 @@
           "ioValues": [
             {
               "name": "a",
-              "ioValue": 23.519784407057088
+              "ioValue": 11.312913782128511
             }
           ],
           "currentEquation": "-a"
@@ -1805,7 +1809,7 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 23.519784407057088
+              "ioValue": 11.312913782128511
             }
           ]
         },
@@ -1829,7 +1833,7 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": -23.519784407057088
+              "ioValue": -11.312913782128511
             }
           ]
         },
@@ -1884,7 +1888,7 @@
         {
           "atomType": "Input",
           "x": 0.0165,
-          "y": 0.20289855072463767,
+          "y": 0.1,
           "uniqueID": "id-257520",
           "name": "RouterCylinderDiam",
           "type": "number"
@@ -1892,23 +1896,30 @@
         {
           "atomType": "Input",
           "x": 0.0165,
-          "y": 0.27014492753623187,
+          "y": 0.16,
           "uniqueID": "id-257523",
           "name": "Bitdiameter"
         },
         {
           "atomType": "Input",
           "x": 0.0165,
-          "y": 0.32608695652173914,
+          "y": 0.22,
           "uniqueID": "id-257526",
           "name": "RouterCylinderRadius"
         },
         {
           "atomType": "Input",
           "x": 0.0165,
-          "y": 0.1400966183574879,
+          "y": 0.28,
           "uniqueID": "id-257529",
           "name": "WoodThick"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.34,
+          "uniqueID": "id-257532",
+          "name": "SwitchNiche"
         }
       ],
       "allConnectors": [
@@ -1996,6 +2007,11 @@
           "ap2Name": "height",
           "ap1ID": "id-257529",
           "ap2ID": "id-257467"
+        },
+        {
+          "ap2Name": "o",
+          "ap1ID": "id-257532",
+          "ap2ID": "id-257469"
         }
       ],
       "fileTypeVersion": 1
@@ -2096,6 +2112,11 @@
       "ap2Name": "x",
       "ap1ID": "id-255275",
       "ap2ID": "id-255353"
+    },
+    {
+      "ap2Name": "RouterCylinderDiam",
+      "ap1ID": "id-255275",
+      "ap2ID": "id-257462"
     },
     {
       "ap2Name": "Shape 1",
@@ -2506,6 +2527,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-256205",
       "ap2ID": "id-256258"
+    },
+    {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-257462",
+      "ap2ID": "id-256850"
     }
   ],
   "unitsKey": "MM",
