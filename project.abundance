@@ -1661,8 +1661,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.43593750000000003,
-      "y": 0.6884057971014492,
+      "x": 0.44687499999999997,
+      "y": 0.8043478260869565,
       "uniqueID": "id-257462",
       "name": "New Molecule",
       "ioValues": [
@@ -1672,19 +1672,19 @@
         },
         {
           "name": "Bitdiameter",
-          "ioValue": 10
+          "ioValue": 3.175
         },
         {
           "name": "RouterCylinderRadius",
-          "ioValue": 10
+          "ioValue": 34.5
         },
         {
           "name": "WoodThick",
-          "ioValue": 10
+          "ioValue": 12.7
         },
         {
           "name": "SwitchNiche",
-          "ioValue": 10
+          "ioValue": 24
         }
       ],
       "topLevel": false,
@@ -1703,8 +1703,8 @@
         },
         {
           "atomType": "Circle",
-          "x": 0.39479166666666665,
-          "y": 0.6159420289855072,
+          "x": 0.36875,
+          "y": 0.36714975845410625,
           "uniqueID": "id-257466",
           "ioValues": [
             {
@@ -1715,8 +1715,8 @@
         },
         {
           "atomType": "Extrude",
-          "x": 0.44212513484358146,
-          "y": 0.578175519630485,
+          "x": 0.4239583333333333,
+          "y": 0.5144927536231884,
           "uniqueID": "id-257467",
           "ioValues": [
             {
@@ -1725,14 +1725,14 @@
             },
             {
               "name": "height",
-              "ioValue": 10
+              "ioValue": 12.7
             }
           ]
         },
         {
           "atomType": "Move",
-          "x": 0.490625,
-          "y": 0.52487922705314,
+          "x": 0.5364583333333334,
+          "y": 0.35990338164251207,
           "uniqueID": "id-257468",
           "ioValues": [
             {
@@ -1741,7 +1741,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 13.535533905932738
+              "ioValue": 35.62253201513364
             },
             {
               "name": "yDist",
@@ -1755,18 +1755,18 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.4796875,
-          "y": 0.6818840579710144,
+          "x": 0.4822916666666666,
+          "y": 0.6521739130434783,
           "uniqueID": "id-257469",
           "name": "asin((o+d)/h) * (180/pi)",
           "ioValues": [
             {
               "name": "o",
-              "ioValue": 10
+              "ioValue": 24
             },
             {
               "name": "d",
-              "ioValue": 3.5355339059327373
+              "ioValue": 1.122532015133644
             },
             {
               "name": "h",
@@ -1777,22 +1777,22 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.48124999999999996,
-          "y": 0.7929951690821255,
+          "x": 0.4791666666666667,
+          "y": 0.8743961352657004,
           "uniqueID": "id-257470",
           "name": "-a",
           "ioValues": [
             {
               "name": "a",
-              "ioValue": 11.312913782128511
+              "ioValue": 21.351877578321307
             }
           ],
           "currentEquation": "-a"
         },
         {
           "atomType": "Rotate",
-          "x": 0.5447916666666667,
-          "y": 0.6432367149758454,
+          "x": 0.6020833333333334,
+          "y": 0.6062801932367149,
           "uniqueID": "id-257471",
           "ioValues": [
             {
@@ -1809,14 +1809,14 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 11.312913782128511
+              "ioValue": 21.351877578321307
             }
           ]
         },
         {
           "atomType": "Rotate",
-          "x": 0.5411458333333334,
-          "y": 0.7881642512077294,
+          "x": 0.5750000000000001,
+          "y": 0.859903381642512,
           "uniqueID": "id-257472",
           "ioValues": [
             {
@@ -1833,14 +1833,14 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": -11.312913782128511
+              "ioValue": -21.351877578321307
             }
           ]
         },
         {
           "atomType": "Assembly",
-          "x": 0.5833333333333334,
-          "y": 0.7422705314009661,
+          "x": 0.6942708333333334,
+          "y": 0.7995169082125604,
           "uniqueID": "id-257473",
           "ioValues": [
             {
@@ -1855,32 +1855,32 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.42702265372168285,
-          "y": 0.7259815242494225,
+          "x": 0.3328125,
+          "y": 0.644927536231884,
           "uniqueID": "id-257474",
           "name": "(d/2)/sqrt(2)",
           "ioValues": [
             {
               "name": "d",
-              "ioValue": 10
+              "ioValue": 3.175
             }
           ],
           "currentEquation": "(d/2)/sqrt(2)"
         },
         {
           "atomType": "Equation",
-          "x": 0.42594390507011864,
-          "y": 0.829907621247113,
+          "x": 0.3625,
+          "y": 0.8695652173913044,
           "uniqueID": "id-257475",
           "name": "x + y",
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 10
+              "ioValue": 34.5
             },
             {
               "name": "y",
-              "ioValue": 3.5355339059327373
+              "ioValue": 1.122532015133644
             }
           ],
           "currentEquation": "x + y"
@@ -2089,6 +2089,11 @@
       "ap2ID": "id-256276"
     },
     {
+      "ap2Name": "WoodThick",
+      "ap1ID": "id-255272",
+      "ap2ID": "id-257462"
+    },
+    {
       "ap2Name": "diameter",
       "ap1ID": "id-255275",
       "ap2ID": "id-255277"
@@ -2179,6 +2184,11 @@
       "ap2ID": "id-255294"
     },
     {
+      "ap2Name": "SwitchNiche",
+      "ap1ID": "id-255297",
+      "ap2ID": "id-257462"
+    },
+    {
       "ap2Name": "Shape 2",
       "ap1ID": "id-255299",
       "ap2ID": "id-255310"
@@ -2187,6 +2197,11 @@
       "ap2Name": "xDist",
       "ap1ID": "id-255305",
       "ap2ID": "id-255299"
+    },
+    {
+      "ap2Name": "RouterCylinderRadius",
+      "ap1ID": "id-255305",
+      "ap2ID": "id-257462"
     },
     {
       "ap2Name": "geometry1",
@@ -2372,6 +2387,11 @@
       "ap2Name": "h",
       "ap1ID": "id-255403",
       "ap2ID": "id-255399"
+    },
+    {
+      "ap2Name": "Bitdiameter",
+      "ap1ID": "id-255512",
+      "ap2ID": "id-257462"
     },
     {
       "ap2Name": "geometry",
