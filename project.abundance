@@ -1665,6 +1665,20 @@
       "y": 0.6884057971014492,
       "uniqueID": "id-257462",
       "name": "New Molecule",
+      "ioValues": [
+        {
+          "name": "RouterCylinderDiam",
+          "ioValue": 10
+        },
+        {
+          "name": "Input_1",
+          "ioValue": 10
+        },
+        {
+          "name": "Input_2",
+          "ioValue": 10
+        }
+      ],
       "topLevel": false,
       "allAtoms": [
         {
@@ -1862,6 +1876,28 @@
             }
           ],
           "currentEquation": "x + y"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.20289855072463767,
+          "uniqueID": "id-257520",
+          "name": "RouterCylinderDiam",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.27014492753623187,
+          "uniqueID": "id-257523",
+          "name": "Input_1"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.33014492753623187,
+          "uniqueID": "id-257526",
+          "name": "Input_2"
         }
       ],
       "allConnectors": [
