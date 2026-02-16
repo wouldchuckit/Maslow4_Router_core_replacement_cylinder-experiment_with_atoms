@@ -1677,6 +1677,10 @@
         {
           "name": "RouterCylinderRadius",
           "ioValue": 10
+        },
+        {
+          "name": "WoodThick",
+          "ioValue": 10
         }
       ],
       "topLevel": false,
@@ -1695,8 +1699,8 @@
         },
         {
           "atomType": "Circle",
-          "x": 0.40005393743257817,
-          "y": 0.5735565819861431,
+          "x": 0.39479166666666665,
+          "y": 0.6159420289855072,
           "uniqueID": "id-257466",
           "ioValues": [
             {
@@ -1717,7 +1721,7 @@
             },
             {
               "name": "height",
-              "ioValue": 12.7
+              "ioValue": 10
             }
           ]
         },
@@ -1898,6 +1902,13 @@
           "y": 0.32608695652173914,
           "uniqueID": "id-257526",
           "name": "RouterCylinderRadius"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0165,
+          "y": 0.1400966183574879,
+          "uniqueID": "id-257529",
+          "name": "WoodThick"
         }
       ],
       "allConnectors": [
@@ -1980,6 +1991,11 @@
           "ap2Name": "x",
           "ap1ID": "id-257526",
           "ap2ID": "id-257475"
+        },
+        {
+          "ap2Name": "height",
+          "ap1ID": "id-257529",
+          "ap2ID": "id-257467"
         }
       ],
       "fileTypeVersion": 1
